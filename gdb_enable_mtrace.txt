@@ -1,0 +1,4 @@
+call setenv("MALLOC_TRACE", strcat(strcat("/tmp/", __progname), ".trace"), 1)
+call mtrace()
+detach
+q

@@ -1,0 +1,3 @@
+call muntrace()
+detach
+q
